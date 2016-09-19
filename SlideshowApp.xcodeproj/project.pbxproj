@@ -12,6 +12,10 @@
 		D81F96E61D8E381A004E25A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D81F96E41D8E381A004E25A0 /* Main.storyboard */; };
 		D81F96E81D8E381A004E25A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D81F96E71D8E381A004E25A0 /* Assets.xcassets */; };
 		D81F96EB1D8E381A004E25A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D81F96E91D8E381A004E25A0 /* LaunchScreen.storyboard */; };
+		D81F96F31D8E441B004E25A0 /* 2数字-イラスト-素材.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D81F96F21D8E441B004E25A0 /* 2数字-イラスト-素材.jpg */; };
+		D81F96F61D8E4436004E25A0 /* 1数字-イラスト-素材.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D81F96F41D8E4436004E25A0 /* 1数字-イラスト-素材.jpg */; };
+		D81F96F71D8E4436004E25A0 /* 3数字-イラスト-素材.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D81F96F51D8E4436004E25A0 /* 3数字-イラスト-素材.jpg */; };
+		D81F96FD1D8EF5C2004E25A0 /* BigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81F96FC1D8EF5C2004E25A0 /* BigViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		D81F96E71D8E381A004E25A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D81F96EA1D8E381A004E25A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D81F96EC1D8E381A004E25A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D81F96F21D8E441B004E25A0 /* 2数字-イラスト-素材.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "2数字-イラスト-素材.jpg"; path = "../../../Pictures/写真 Library.photoslibrary/resources/modelresources/112/52/p4%4MtpzRjecKxOXy267dg/2数字-イラスト-素材.jpg"; sourceTree = "<group>"; };
+		D81F96F41D8E4436004E25A0 /* 1数字-イラスト-素材.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "1数字-イラスト-素材.jpg"; path = "../../../Pictures/写真 Library.photoslibrary/resources/modelresources/89/88/YXwgOzLISiWnl76ceE4icA/1数字-イラスト-素材.jpg"; sourceTree = "<group>"; };
+		D81F96F51D8E4436004E25A0 /* 3数字-イラスト-素材.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "3数字-イラスト-素材.jpg"; path = "../../../Pictures/写真 Library.photoslibrary/resources/modelresources/79/97/OaLxk9wURbyQrInXwpDjmw/3数字-イラスト-素材.jpg"; sourceTree = "<group>"; };
+		D81F96FC1D8EF5C2004E25A0 /* BigViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BigViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 				D81F96E01D8E381A004E25A0 /* AppDelegate.swift */,
 				D81F96E21D8E381A004E25A0 /* ViewController.swift */,
 				D81F96E41D8E381A004E25A0 /* Main.storyboard */,
+				D81F96FC1D8EF5C2004E25A0 /* BigViewController.swift */,
+				D81F96F41D8E4436004E25A0 /* 1数字-イラスト-素材.jpg */,
+				D81F96F51D8E4436004E25A0 /* 3数字-イラスト-素材.jpg */,
+				D81F96F21D8E441B004E25A0 /* 2数字-イラスト-素材.jpg */,
 				D81F96E71D8E381A004E25A0 /* Assets.xcassets */,
 				D81F96E91D8E381A004E25A0 /* LaunchScreen.storyboard */,
 				D81F96EC1D8E381A004E25A0 /* Info.plist */,
@@ -122,9 +134,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D81F96F71D8E4436004E25A0 /* 3数字-イラスト-素材.jpg in Resources */,
 				D81F96EB1D8E381A004E25A0 /* LaunchScreen.storyboard in Resources */,
 				D81F96E81D8E381A004E25A0 /* Assets.xcassets in Resources */,
 				D81F96E61D8E381A004E25A0 /* Main.storyboard in Resources */,
+				D81F96F61D8E4436004E25A0 /* 1数字-イラスト-素材.jpg in Resources */,
+				D81F96F31D8E441B004E25A0 /* 2数字-イラスト-素材.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +152,7 @@
 			files = (
 				D81F96E31D8E381A004E25A0 /* ViewController.swift in Sources */,
 				D81F96E11D8E381A004E25A0 /* AppDelegate.swift in Sources */,
+				D81F96FD1D8EF5C2004E25A0 /* BigViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
